@@ -86,6 +86,6 @@ class Grid(object):
        self.displayValue();
        print (self.value)
 
-    def reset(self)
+    def reset(self):
        self.t =0;
        self.updatePos(self.start)
